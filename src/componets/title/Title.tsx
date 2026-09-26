@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import { Title } from "./Title.styled";
 
 export const TitleBlock = () => {
   return (
@@ -9,9 +9,3 @@ export const TitleBlock = () => {
     </Title>
   );
 };
-
-const Title = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-`;

@@ -14,7 +14,3 @@ export const PhotoBlock = (props: PhotoBlockPropsType) => {
   );
 };
 
-export const StyledPhotoBlock = styled.div`
-  position: relative;
-  max-width: 100%;
-  `
