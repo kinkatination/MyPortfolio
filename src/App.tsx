@@ -1,7 +1,7 @@
 import "./App.css";
 //import styled from "styled-components";
 import { Header } from "./layout/header/Header.styled";
-import { Main } from "./componets/main/Main.tsx";
+import { Main } from "./layout/sections/main/Main.tsx";
 
 function App() {
   return (

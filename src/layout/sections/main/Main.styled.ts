@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ContainerStyled } from "../container/Container.styled";
+import { ContainerStyled } from "../../../componets/container/Container.styled";
 
 export const MainStyle = styled.main`
   width: 1440;

@@ -1,6 +1,3 @@
-import styled from "styled-components";
-
-
 type PhotoBlockPropsType = {
   src: string;
   alt?: string;
@@ -13,4 +10,3 @@ export const PhotoBlock = (props: PhotoBlockPropsType) => {
     </div>
   );
 };
-
