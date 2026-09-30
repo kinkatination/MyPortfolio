@@ -1,11 +1,10 @@
-import { Container } from "../../../componets/container/Container"
-import { Main } from "../main/Main"
+import { Container } from "../../../componets/container/Container";
+
+
 
 
 export const Skills = () => {
-    return (
-        <Main>
-        <Container></Container>
-        </Main>
-    )
-} 
+  return (
+  <Container></Container>
+  );
+};
