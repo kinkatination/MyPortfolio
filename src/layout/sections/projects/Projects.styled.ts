@@ -1,24 +1,17 @@
 import styled from "styled-components";
 import { ContainerStyled } from "../../../componets/container/Container.styled";
 
-export const SkillsStyled = styled.section`
+export const StyleProject = styled.div`
   width: 1440;
   height: 597;
   top: 953px;
-  background-color: hotpink;
+  background-color: gainsboro;
 
   ${ContainerStyled} {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
   }
 `;
 
-export const SkillsList = styled.div`
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 40px;
-`;
+

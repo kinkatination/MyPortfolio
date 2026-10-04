@@ -8,7 +8,7 @@ export const Main = () => {
     <MainStyle>
       <Container>
         <TitleBlock />
-       <PhotoBlock src={"src/images/hero-cropped.jpeg"} alt ="Photo"/> 
+       <PhotoBlock src={"../../../src/assets/images/hero-cropped.jpeg"} alt ="Photo"/> 
       </Container>
     </MainStyle>
   );
